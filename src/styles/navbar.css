@@ -1,0 +1,137 @@
+.mainpage{
+    width : 100%;
+    display: flex;
+}
+.sidebar{
+    width : 20%;
+  
+    
+}
+.content{
+    width: 70%;
+    height: auto;
+    margin: 20px 0px;
+}
+
+.container{
+    margin: 20px 0px;
+}
+
+.space{
+    width : 10%;
+    height : 100%;
+   
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.sidebar a:hover{
+    color:gray;
+}
+.sidebar ul li{
+    list-style-type: none;
+}
+ul li  {
+    margin-bottom: 30px;
+}
+.itro_contact{
+    display: flex;
+    justify-content: space-around;
+}
+.Introduction{
+    text-align: center;
+}
+.Introduction p{
+    font-size: 24px;
+    font-weight: 600; 
+}
+.sub_heading{
+    font-size: 30px;
+    font-weight: 700;
+    /* margin-left: 55px; */
+}
+.personal-list{
+    margin: 0px 30px;
+}
+.textHighlighter{
+    font-weight: 800;
+}
+.verticalLine{
+    border: 1px solid #000;
+    margin: 0px 15px;
+}
+.personal-info .sub_heading{
+    margin-left: 55px;
+}
+.table_content{
+border: 3px solid #dee2e6;
+}
+tbody tr .table_left {
+      background-color: rgba(0, 0, 0, 0.05);
+      padding: 5px 30px;
+    font-size: 18px;
+}
+
+tbody tr td{
+border: 1px solid #dee2e6;
+}
+.table_right{
+width: 400px;
+padding-left: 10px;
+}
+.project_list .project_subHeading{
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    padding-right: 10px;
+    font-weight: 600;
+}
+.project_list .project_subHeading::after{
+    content: ":";
+    position: absolute;
+    right: 10px;
+  }
+.project_heading{
+    font-weight: 800;
+    font-size: 20px;
+}
+.declaration_contact{
+margin-right: 100px;
+display: flex;
+justify-content: space-between;
+margin-top: 100px;
+}
+.contentContainer{
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    padding: 50px;
+    margin: 50px 0;
+    border-radius: 5px;
+}
+.project-info{
+    /* box-shadow: rgb(0 0 0 / 15%) 0px 2px 8px; */
+    padding-bottom: 30px;
+    padding-left: 55px;
+    padding-top: 30px;
+}
+.contentContainer1{
+    padding-bottom: 30px;
+    /* padding-left: 55px; */
+    padding-top: 10px;
+}
+.project {
+    margin: 30px 0;
+}
+.contentContainer2{
+    padding-bottom: 30px;
+    padding-left: 55px;
+    padding-top: 30px;
+}
+.sidebar_menu{
+    position: fixed;
+    top: 100px;
+}
+.contentPadding{
+padding-left: 55px;
+}
